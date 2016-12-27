@@ -48,7 +48,7 @@ select ch in $CHS; do
 	    exit
 	elif [ "$ch" = "at40" ]; then
 	    num=$(numbering $ch)
-	    rec_mplayer $ch $num http://americantop40.akacast.akamaistream.net/7/785/58084/v1/auth.akacast.akamaistream.net/americantop40.m3u
+	    rec_mplayer $ch $num http://americantop40.akacast.akamaistream.net/7/785/58084/v1/auth.akacast.akamaistream.net/americantop40
 	elif [ "$ch" = "at40classic" ]; then
 	    num=$(numbering $ch)
 	    rec_mplayer $ch $num http://at70-fl.ng.akacast.akamaistream.net:80/7/763/234624/v1/auth.akacast.akamaistream.net/at70-fl
